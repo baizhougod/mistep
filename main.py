@@ -27,6 +27,7 @@ def login(user, password):
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
         "User-Agent": "MiFit/5.3.0 (iPhone; iOS 14.4.1; Scale/3.00)"
     }
+    
     data1 = {
         "client_id": "HuaMi",
         "password": f"{password}",
